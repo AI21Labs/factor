@@ -1,2 +1,2 @@
 # factor
-Code and data for the FACTOR paper
+Code and data will be available soon
