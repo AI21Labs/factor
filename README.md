@@ -1,8 +1,14 @@
 # FACTOR
 
-This repo contains evaluation data from [AI21 Labs](https://www.ai21.com/)' paper [Generating Benchmarks for Factuality Evaluation of Language Models](https://arxiv.org/abs/2307.06908).
+This repo contains data from [AI21 Labs](https://www.ai21.com/)' paper [Generating Benchmarks for Factuality Evaluation of Language Models](https://arxiv.org/abs/2307.06908).
 
-## Setup
+## DATA
+
+We include WIKI-FACTOR, an factuality benchmark of language models based on the Wikipedia section of [The Pile’s](https://github.com/EleutherAI/the-pile)) validation split. The dataset consists of 2994 examples.
+
+## Evaluation
+
+#### Setup
 
 To install the required libraries in our repo, run:
 ```bash
@@ -10,12 +16,10 @@ pip install -r requirements.txt
 ```
 To have a Pytorch version specific to your CUDA, [install](https://pytorch.org/) your version before running the above command.
 
-## Evaluation
 
 ### List of Language Models
 
 In the paper, we give the results for the following models (replace `$MODEL_NAME` with one of those).  
-See details below on how to apply this option.
 
 * GPT-2: `gpt2`, `gpt2-medium`, `gpt2-large`, `gpt2-xl`
 * GPT-Neo: `EleutherAI/gpt-neo-1.3B`, `EleutherAI/gpt-neo-2.7B`, `EleutherAI/gpt-j-6B`
