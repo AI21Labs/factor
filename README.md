@@ -2,7 +2,7 @@
 
 This repo contains data from [AI21 Labs](https://www.ai21.com/)' paper [Generating Benchmarks for Factuality Evaluation of Language Models](https://arxiv.org/abs/2307.06908).
 
-## DATA
+## Data
 
 We include WIKI-FACTOR, an factuality benchmark of language models based on the Wikipedia section of [The Pile’s](https://github.com/EleutherAI/the-pile)) validation split. The dataset consists of 2994 examples.
 
