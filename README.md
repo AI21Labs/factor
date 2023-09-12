@@ -21,11 +21,9 @@ See details below on how to apply this option.
 * GPT-Neo: `EleutherAI/gpt-neo-1.3B`, `EleutherAI/gpt-neo-2.7B`, `EleutherAI/gpt-j-6B`
 * OPT: `facebook/opt-125m`, `facebook/opt-350m`, `facebook/opt-1.3b`, `facebook/opt-2.7b`, `facebook/opt-6.7b`, `facebook/opt-13b`, `facebook/opt-30b`, `facebook/opt-66b`
 
-### Evaluation
+### Evaluation Script
 
-python eval_factuality.py --data_file ./data/wiki_factor.csv --output_folder ./temp --model_name gpt2
-
-To run evaluation on models without retrieval, please use the following command (you can increase `stride` to 32 for faster evaluation):
+To run evaluation on models over FACTOR datasets, please use the following command:
 ```bash
 python python eval_factuality.py \
 --data_file ./data/wiki_factor.csv \
