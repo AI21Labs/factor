@@ -4,7 +4,9 @@ This repo contains data from [AI21 Labs](https://www.ai21.com/)' paper [Generati
 
 ## Data
 
-We include WIKI-FACTOR, an factuality benchmark of language models based on the Wikipedia section of [The Pile’s](https://github.com/EleutherAI/the-pile)) validation split. The dataset consists of 2994 examples.
+We include the following FACTOR benchmarks for evaluating factuality of language models: 
+* WIKI-FACTOR: based on the Wikipedia section of [The Pile’s](https://github.com/EleutherAI/the-pile)) validation split. The dataset consists of 2994 examples.
+* EXPERT-FACTOR: based on the validation and test splits of [ExpertQA](https://arxiv.org/abs/2309.07852), a long-from question answering dataset. The benchmark consists of 236 examples.
 
 ## Evaluation
 
