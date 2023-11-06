@@ -38,7 +38,7 @@ python python eval_factuality.py \
 --model_name $MODEL_NAME
 ```
 
-## Licenses
+## License
 * WIKI-FACTOR, EXPERT-FACTOR and code: Released under the MIT license.
 * NEWS-FACTOR: The dataset is derived from [The RefinedWeb Dataset](https://arxiv.org/abs/2306.01116). The public extract is made available under an ODC-By 1.0 license; users should also abide to the CommonCrawl ToU: https://commoncrawl.org/terms-of-use/.
 
