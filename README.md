@@ -39,8 +39,8 @@ python python eval_factuality.py \
 ```
 
 ## License
-* WIKI-FACTOR, EXPERT-FACTOR and code: Released under the MIT license.
-* NEWS-FACTOR: The [benchmark](data/news_factor.csv) is derived from [The RefinedWeb Dataset](https://arxiv.org/abs/2306.01116). The public extract is made available under an ODC-By 1.0 license; users should also abide to the CommonCrawl ToU: https://commoncrawl.org/terms-of-use/.
+* `wiki_factor`, `expert_factor` and code: Released under the MIT license.
+* `news_factor`: The [benchmark](data/news_factor.csv) is derived from [The RefinedWeb Dataset](https://arxiv.org/abs/2306.01116). The public extract is made available under an ODC-By 1.0 license; users should also abide to the CommonCrawl ToU: https://commoncrawl.org/terms-of-use/.
 
 ## Citation
 
