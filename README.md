@@ -6,6 +6,7 @@ This repo contains data from [AI21 Labs](https://www.ai21.com/)' paper [Generati
 
 We include the following FACTOR benchmarks for evaluating factuality of language models: 
 * WIKI-FACTOR: based on the Wikipedia section of [The Pile’s](https://github.com/EleutherAI/the-pile)) validation split. The dataset consists of 2994 examples.
+* NEWS-FACTOR: based on Reuters articles extracted from [The RefinedWeb Dataset](https://arxiv.org/abs/2306.01116) 
 * EXPERT-FACTOR: based on the validation and test splits of [ExpertQA](https://arxiv.org/abs/2309.07852), a long-from question answering dataset. The benchmark consists of 236 examples.
 
 ## Evaluation
@@ -37,7 +38,9 @@ python python eval_factuality.py \
 --model_name $MODEL_NAME
 ```
 
-### Evaluate models with retrieval:
+## Licenses
+* WIKI-FACTOR, EXPERT-FACTOR and code: released under the MIT license.
+* NEWS-FACTOR: the dataset is derived from [The RefinedWeb Dataset](https://arxiv.org/abs/2306.01116). The public extract is made available under an ODC-By 1.0 license; users should also abide to the CommonCrawl ToU: https://commoncrawl.org/terms-of-use/.
 
 ## Citation
 
