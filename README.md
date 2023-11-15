@@ -40,7 +40,7 @@ python python eval_factuality.py \
 
 ## License
 * `wiki_factor`, `expert_factor` and code: Released under the MIT license.
-* `news_factor`: The [benchmark](data/news_factor.csv) is derived from [The RefinedWeb Dataset](https://arxiv.org/abs/2306.01116). The public extract is made available under an ODC-By 1.0 license; users should also abide to the CommonCrawl ToU: https://commoncrawl.org/terms-of-use/.
+* `news_factor`: The [benchmark](data/news_factor.csv) is derived from [The RefinedWeb Dataset](https://arxiv.org/abs/2306.01116). The public extract is made available under an ODC-By 1.0 [license](FACTOR_NEWS_LICENSE.md); users should also abide to the CommonCrawl ToU: https://commoncrawl.org/terms-of-use/.
 
 ## Citation
 
